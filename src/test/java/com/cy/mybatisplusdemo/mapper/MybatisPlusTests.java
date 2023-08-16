@@ -15,7 +15,7 @@ import java.util.Map;
 
 @SpringBootTest
 public class MybatisPlusTests {
-    //自动装配引用变量productMapper
+    //自动装配变量
     @Autowired
     private ProductMapper productMapper;
 
